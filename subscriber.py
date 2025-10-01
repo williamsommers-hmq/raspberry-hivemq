@@ -9,7 +9,7 @@ from gmqtt import Client as MQTTClient
 # Public MQTT broker for testing
 BROKER_HOST = 'broker.hivemq.com'
 BROKER_PORT = 1883
-TOPIC = 'plant1/line2/mixer3/primary_motor'
+TOPIC = 'site1/line2/mixer3/motor1/sensors/mainmotor'
 
 STOP = asyncio.Event()
 
